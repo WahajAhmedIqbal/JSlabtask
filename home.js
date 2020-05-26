@@ -88,3 +88,18 @@
 
 // var result = mainfun( nm1 , nm2 , rslt);
 // console.log(result);
+
+/////////////////////////////////////////////// ASSIGNMENT # 6
+
+var sweetlist = ["cake”, “apple pie”, “cookie”, “chips”, “patties"];
+var sweetsearch = prompt(`Search from 'cake', “apple pie”, “cookie”, “chips”, “patties" `);
+var ssearch = sweetsearch.toLocaleLowerCase();
+var fnd = ssearch.indexOf(sweetlist);
+if(sweetlist ===  fnd )
+    {
+        console.log("testing");
+    }
+else
+    {
+        console.log("test");
+    }
